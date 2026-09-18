@@ -1,11 +1,6 @@
 # Changelog
 
-(Los cambios más recientes van arriba de todo)
-
-## Día 2 - Análisis inicial del dataset
-- Descarga y almacenamiento del dataset raw.
-- Inspección inicial de los datos.
-- Análisis de tipos de datos y columnas que requieren conversión.
-- Conteo de valores nulos.
-- Análisis del porcentaje de valores correctos por columna.
-
+[Ejercicio 1]
+- Se inicializó el repositorio en la rama `Sprint_1`
+- Se creó la estructura de carpetas del proyecto (`data/raw`, `data/interim/plots`, `data/processed`, `reports`)
+- Se crearon los archivos base `CHANGELOG.md` y `README.md`
