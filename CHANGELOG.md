@@ -1,5 +1,9 @@
 # Changelog
 
+[Ejercicio 5]
+- Se generaron 6 visualizaciones: top infractores, infracciones por turno, infracciones por mes, distribución del exceso de velocidad (histograma + KDE), exceso promedio por muelle, y comparación de fecha válida vs inválida
+- Todas las visualizaciones se exportaron como .jpg en `data/interim/plots/`
+
 [Ejercicio 4]
 - Se definió la clase PortAnalyzer para encapsular el análisis de infracciones
 - Se implementaron los métodos top_infractores, infracciones_por_turno, exceso_promedio, exceso_promedio_tolerancia, infracciones_por_muelle e infractores_por_tipo_carga
