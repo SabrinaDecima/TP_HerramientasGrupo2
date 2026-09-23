@@ -1,5 +1,9 @@
 # Changelog
 
+[Ejercicio 4]
+- Se definió la clase PortAnalyzer para encapsular el análisis de infracciones
+- Se implementaron los métodos top_infractores, infracciones_por_turno, exceso_promedio, exceso_promedio_tolerancia, infracciones_por_muelle e infractores_por_tipo_carga
+
 [Ejercicio 3]
 - Se normalizaron fechas, horas, matrículas y muelles
 - Se calculó la duración de estadía (`duracion_horas`)
