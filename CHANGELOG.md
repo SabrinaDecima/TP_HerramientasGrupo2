@@ -1,5 +1,9 @@
 # Changelog
 
+[Ejercicio 6]
+- Se respondieron las cinco preguntas sobre el dataset limpio.
+- Se contrastaron las horas con el dataset original para identificar registros inválidos.
+
 [Ejercicio 5]
 - Se generaron 6 visualizaciones: top infractores, infracciones por turno, infracciones por mes, distribución del exceso de velocidad (histograma + KDE), exceso promedio por muelle, y comparación de fecha válida vs inválida
 - Todas las visualizaciones se exportaron como .jpg en `data/interim/plots/`
