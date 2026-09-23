@@ -1,5 +1,9 @@
 # Changelog
 
+[Ejercicio 7]
+- Se redactó la conclusión del análisis en `port_log/reports/conclusion.md`
+- Se evaluó la calidad del dataset, los patrones de infracción y se propuso una mejora al proceso de captura
+
 [Ejercicio 6]
 - Se respondieron las cinco preguntas sobre el dataset limpio.
 - Se contrastaron las horas con el dataset original para identificar registros inválidos.
