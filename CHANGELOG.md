@@ -1,5 +1,12 @@
 # Changelog
 
+[Ejercicio 3]
+- Se convirtieron todas las imágenes a escala de grises (cv2.cvtColor) y se guardaron en `data/interim/imgs/03_01_gray/plates` y `.../completes`
+- Se aplicó ecualización de histograma (cv2.equalizeHist) sobre las imágenes en gris para mejorar el contraste, guardadas en `data/interim/imgs/03_02_equalized/plates` y `.../completes`
+- Se aplicó suavizado con blur gaussiano (cv2.GaussianBlur, kernel 5x5) sobre las imágenes ecualizadas, guardadas en `data/interim/imgs/03_03_blur/plates` y `.../completes`
+- Se aplicó detección de bordes con Canny (umbrales 50-150) sobre las imágenes suavizadas, guardadas en `data/interim/imgs/03_04_canny/plates` y `.../completes`
+- Se visualizaron muestras aleatorias de cada etapa con la función mostrar_muestra
+
 [Ejercicio 2]
 - Se listaron las 100 imágenes disponibles con nombre y tamaño en KB
 - Se separaron las imágenes en los grupos `plates` (60) y `completes` (40) según si el nombre de archivo contiene 'plate' o 'complete'
