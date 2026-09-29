@@ -1,5 +1,12 @@
 # Changelog
 
+[Ejercicio 2]
+- Se listaron las 100 imágenes disponibles con nombre y tamaño en KB
+- Se separaron las imágenes en los grupos `plates` (60) y `completes` (40) según si el nombre de archivo contiene 'plate' o 'complete'
+- Se construyó el diccionario `group_images` con width, height, area y path de cada imagen (usando OpenCV) y se guardó en `port_log/data/interim/group_images.json`
+- Se calcularon resolución, área y tamaño promedio de cada grupo
+- Se implementó la función `mostrar_muestra` para visualizar imágenes aleatorias de cada grupo en grilla de 2 columnas
+
 [Ejercicio 1]
 - Se clonó el repositorio del Sprint 1 y se creó la rama `Sprint_2` a partir de `Sprint_1`
 - Se descargó el dataset de imágenes y se almacenó en `port_log/data/raw/imgs`
