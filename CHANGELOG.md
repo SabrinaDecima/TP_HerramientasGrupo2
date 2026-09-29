@@ -1,5 +1,10 @@
 # Changelog
 
+[Ejercicio 1]
+- Se clonó el repositorio del Sprint 1 y se creó la rama `Sprint_2` a partir de `Sprint_1`
+- Se descargó el dataset de imágenes y se almacenó en `port_log/data/raw/imgs`
+- Se verificó la disponibilidad de los archivos del Sprint 1 (`port_movements.csv` raw e interim, `summary_sprint1.csv`) y se mostró la cantidad de registros de cada uno
+
 [Ejercicio 7]
 - Se redactó la conclusión del análisis en `port_log/reports/conclusion.md`
 - Se evaluó la calidad del dataset, los patrones de infracción y se propuso una mejora al proceso de captura
