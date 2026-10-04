@@ -1,5 +1,13 @@
 # Changelog
 
+[Ejercicio 4]
+
+- Se extrajeron las matrículas de las imágenes mediante EasyOCR
+- Se normalizaron las matrículas para comparar caracteres alfanuméricos ignorando guiones y espacios
+- Se realizó el matching con el dataset utilizando un umbral mínimo de coincidencia del 75%
+- Se agregaron las columnas `imagen`, `matricula_imagen`, `ratio` y `grupo_imagen`
+- Se guardó el resultado en `port_log/data/processed/port_movements_image.csv`
+
 [Ejercicio 3]
 - Se convirtieron todas las imágenes a escala de grises (cv2.cvtColor) y se guardaron en `data/interim/imgs/03_01_gray/plates` y `.../completes`
 - Se aplicó ecualización de histograma (cv2.equalizeHist) sobre las imágenes en gris para mejorar el contraste, guardadas en `data/interim/imgs/03_02_equalized/plates` y `.../completes`
