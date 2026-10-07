@@ -1,5 +1,8 @@
 # Changelog
 
+[Ejercicio 6 - Sprint 2]
+- Se redactó la conclusión del Sprint 2 en `port_log/reports/sprint_2/conclusion.md`, sin modificar la conclusión del Sprint 1
+
 [Ejercicio 5]
 - Sprint 2: se calcularon métricas de cobertura de imágenes, coincidencia de OCR por grupo y pendientes sin imagen
 - Se diferenciaron los matches por imagen de las filas vinculadas en el CSV procesado
