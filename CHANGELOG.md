@@ -1,5 +1,9 @@
 # Changelog
 
+[Ejercicio 5]
+- Sprint 2: se calcularon métricas de cobertura de imágenes, coincidencia de OCR por grupo y pendientes sin imagen
+- Se diferenciaron los matches por imagen de las filas vinculadas en el CSV procesado
+
 [Ejercicio 4]
 
 - Se extrajeron las matrículas de las imágenes mediante EasyOCR
