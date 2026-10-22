@@ -1,5 +1,39 @@
 # Changelog
 
+[Ejercicio 1 - Sprint 3]
+- Se creó la rama `Sprint_3` a partir de `Sprint_2`
+- Se verificó el acceso a los datasets de los sprints anteriores (`port_movements.csv`, `port_movements_image.csv`, `group_images.json` y `summary_sprint1.csv`), mostrando cantidad de registros y fecha de última modificación de cada uno
+- Se actualizó el README.md con el objetivo y el contexto del Sprint 3
+
+[Ejercicio 6 - Sprint 2]
+- Se redactó la conclusión del Sprint 2 en `port_log/reports/sprint_2/conclusion.md`, sin modificar la conclusión del Sprint 1
+
+[Ejercicio 5]
+- Sprint 2: se calcularon métricas de cobertura de imágenes, coincidencia de OCR por grupo y pendientes sin imagen
+- Se diferenciaron los matches por imagen de las filas vinculadas en el CSV procesado
+
+[Ejercicio 4]
+
+- Se extrajeron las matrículas de las imágenes mediante EasyOCR
+- Se normalizaron las matrículas para comparar caracteres alfanuméricos ignorando guiones y espacios
+- Se realizó el matching con el dataset utilizando un umbral mínimo de coincidencia del 75%
+- Se agregaron las columnas `imagen`, `matricula_imagen`, `ratio` y `grupo_imagen`
+- Se guardó el resultado en `port_log/data/processed/port_movements_image.csv`
+
+[Ejercicio 3]
+- Se convirtieron todas las imágenes a escala de grises (cv2.cvtColor) y se guardaron en `data/interim/imgs/03_01_gray/plates` y `.../completes`
+- Se aplicó ecualización de histograma (cv2.equalizeHist) sobre las imágenes en gris para mejorar el contraste, guardadas en `data/interim/imgs/03_02_equalized/plates` y `.../completes`
+- Se aplicó suavizado con blur gaussiano (cv2.GaussianBlur, kernel 5x5) sobre las imágenes ecualizadas, guardadas en `data/interim/imgs/03_03_blur/plates` y `.../completes`
+- Se aplicó detección de bordes con Canny (umbrales 50-150) sobre las imágenes suavizadas, guardadas en `data/interim/imgs/03_04_canny/plates` y `.../completes`
+- Se visualizaron muestras aleatorias de cada etapa con la función mostrar_muestra
+
+[Ejercicio 2]
+- Se listaron las 100 imágenes disponibles con nombre y tamaño en KB
+- Se separaron las imágenes en los grupos `plates` (60) y `completes` (40) según si el nombre de archivo contiene 'plate' o 'complete'
+- Se construyó el diccionario `group_images` con width, height, area y path de cada imagen (usando OpenCV) y se guardó en `port_log/data/interim/group_images.json`
+- Se calcularon resolución, área y tamaño promedio de cada grupo
+- Se implementó la función `mostrar_muestra` para visualizar imágenes aleatorias de cada grupo en grilla de 2 columnas
+
 [Ejercicio 1]
 - Se clonó el repositorio del Sprint 1 y se creó la rama `Sprint_2` a partir de `Sprint_1`
 - Se descargó el dataset de imágenes y se almacenó en `port_log/data/raw/imgs`
