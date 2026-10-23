@@ -1,5 +1,9 @@
 # Changelog
 
+[Ejercicio 2 - Sprint 3]
+- Se configuró DVC con Supabase Storage como remote S3 (`supabase_remote`), sin versionar las claves en Git
+- Se migraron a DVC las imágenes de `port_log/data/raw/imgs` (puntero `imgs.dvc` versionado en Git)
+
 [Ejercicio 1 - Sprint 3]
 - Se creó la rama `Sprint_3` a partir de `Sprint_2`
 - Se verificó el acceso a los datasets de los sprints anteriores (`port_movements.csv`, `port_movements_image.csv`, `group_images.json` y `summary_sprint1.csv`), mostrando cantidad de registros y fecha de última modificación de cada uno
