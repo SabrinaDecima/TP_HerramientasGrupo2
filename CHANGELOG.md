@@ -1,5 +1,12 @@
 # Changelog
 
+[Ejercicio 5 - Sprint 3]
+- Se creó la base de datos SQLite transito_portuario.db utilizando SQLAlchemy
+- Se generaron las tablas Buque, Radar, Movimiento y Evidencia a partir de los modelos ORM
+- Se cargaron los datos del dataset procesado port_movements_image.csv
+- Se verificó la carga de 20 buques, 9 radares, 474 movimientos y 456 evidencias
+- Se comprobó la correspondencia entre los registros del CSV y los movimientos almacenados
+
 [Ejercicio 4 - Sprint 3]
 - Se implementaron las clases Buque, Radar, Movimiento y Evidencia utilizando SQLAlchemy ORM
 - Se definieron las columnas, claves primarias, claves foráneas y relaciones entre las entidades
