@@ -1,5 +1,10 @@
 # Changelog
 
+[Ejercicio 1 - Sprint 3]
+- Se creó la rama `Sprint_3` a partir de `Sprint_2`
+- Se verificó el acceso a los datasets de los sprints anteriores (`port_movements.csv`, `port_movements_image.csv`, `group_images.json` y `summary_sprint1.csv`), mostrando cantidad de registros y fecha de última modificación de cada uno
+- Se actualizó el README.md con el objetivo y el contexto del Sprint 3
+
 [Ejercicio 6 - Sprint 2]
 - Se redactó la conclusión del Sprint 2 en `port_log/reports/sprint_2/conclusion.md`, sin modificar la conclusión del Sprint 1
 
