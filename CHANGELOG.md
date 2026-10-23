@@ -1,5 +1,15 @@
 # Changelog
 
+[Ejercicio 6 - Sprint 3]
+- Se implementaron seis consultas utilizando SQLAlchemy ORM sobre la base SQLite
+- Se identificaron los diez buques con mayor cantidad de infracciones
+- Se consultaron los movimientos más recientes sin evidencia fotográfica
+- Se elaboró un ranking de radares según muelles distintos e infracciones registradas
+- Se identificaron los buques reincidentes durante el año 2024
+- Se calculó el exceso de velocidad promedio por muelle
+- Se calculó la cobertura de imágenes asociadas a infracciones, obteniendo un 96,20%
+- Se detectaron 21 movimientos sin identificador de radar y se excluyó el valor 'nan' del ranking sin eliminar registros
+
 [Ejercicio 5 - Sprint 3]
 - Se creó la base de datos SQLite transito_portuario.db utilizando SQLAlchemy
 - Se generaron las tablas Buque, Radar, Movimiento y Evidencia a partir de los modelos ORM
