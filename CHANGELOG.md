@@ -1,5 +1,11 @@
 # Changelog
 
+[Ejercicio 4 - Sprint 3]
+- Se implementaron las clases Buque, Radar, Movimiento y Evidencia utilizando SQLAlchemy ORM
+- Se definieron las columnas, claves primarias, claves foráneas y relaciones entre las entidades
+- Se desarrolló la función procesar_fila_csv para transformar los registros del dataset en objetos del modelo
+- Se verificó la configuración de los modelos y la conversión de una fila del CSV
+
 [Ejercicio 3 - Sprint 3]
 - Se diseñó el modelo conceptual de la base de datos con las entidades Buque, Radar, Movimiento y Evidencia
 - Se definieron las relaciones y cardinalidades entre las entidades
