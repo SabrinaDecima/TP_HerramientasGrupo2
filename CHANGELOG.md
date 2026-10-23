@@ -4,6 +4,7 @@
 - Se configuró DVC con Supabase Storage como remote S3 (`supabase_remote`), sin versionar las claves en Git
 - Se migraron a DVC las imágenes de `port_log/data/raw/imgs` (puntero `imgs.dvc` versionado en Git)
 - Se migraron a DVC los gráficos de `port_log/data/interim/plots` (puntero `plots.dvc` versionado en Git)
+- Se versionó con DVC el dataset procesado final `port_log/data/processed/port_movements_image.csv` (puntero `port_movements_image.csv.dvc`), justificando por qué se versiona con DVC y no solo con Git
 
 [Ejercicio 1 - Sprint 3]
 - Se creó la rama `Sprint_3` a partir de `Sprint_2`
