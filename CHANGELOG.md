@@ -1,5 +1,10 @@
 # Changelog
 
+[Ejercicio 3 - Sprint 3]
+- Se diseñó el modelo conceptual de la base de datos con las entidades Buque, Radar, Movimiento y Evidencia
+- Se definieron las relaciones y cardinalidades entre las entidades
+- Se estableció que el muelle corresponde al Movimiento, dado que los radares pueden cambiar de ubicación
+
 [Ejercicio 2 - Sprint 3]
 - Se configuró DVC con Supabase Storage como remote S3 (`supabase_remote`), sin versionar las claves en Git
 - Se migraron a DVC las imágenes de `port_log/data/raw/imgs` (puntero `imgs.dvc` versionado en Git)
