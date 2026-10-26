@@ -1,5 +1,9 @@
 # Changelog
 
+[Ejercicio 9 - Sprint 3]
+- Se redactó una conclusión integradora de los tres sprints en port_log/reports/sprint_3/conclusion.md.
+- Se resumieron el alcance del sistema, la ventaja de la búsqueda visual, sus límites y las mejoras necesarias para usarlo en el Puerto de Rosario.
+
 [Ejercicio 8 - Sprint 3]
 - Se implementó buscar_buque_por_imagen con embeddings de OpenCLIP y búsqueda por similitud en ChromaDB.
 - Se recuperan desde la base relacional los datos del buque, sus movimientos y sus evidencias.
