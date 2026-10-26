@@ -1,5 +1,10 @@
 # Changelog
 
+[Ejercicio 8 - Sprint 3]
+- Se implementó buscar_buque_por_imagen con embeddings de OpenCLIP y búsqueda por similitud en ChromaDB.
+- Se recuperan desde la base relacional los datos del buque, sus movimientos y sus evidencias.
+- Se validó la búsqueda con una imagen complete y se advierte sobre resultados inciertos al consultar recortes plate.
+
 [Ejercicio 7 - Sprint 3]
 - Se creó la colección buque_vectorial en ChromaDB usando embeddings de OpenCLIP.
 - Cada registro usa el id del buque de la base relacional y su imagen complete con mayor ratio de coincidencia.
