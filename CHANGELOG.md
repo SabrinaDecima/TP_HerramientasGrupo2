@@ -1,5 +1,11 @@
 # Changelog
 
+[Ejercicio 7 - Sprint 3]
+- Se creó la colección buque_vectorial en ChromaDB usando embeddings de OpenCLIP.
+- Cada registro usa el id del buque de la base relacional y su imagen complete con mayor ratio de coincidencia.
+- Los buques sin imagen complete asociada se excluyeron de la colección.
+- Se verificaron 20 buques en la base relacional y 16 en la vectorial: cobertura del 80,00%.
+
 [Ejercicio 6 - Sprint 3]
 - Se implementaron seis consultas utilizando SQLAlchemy ORM sobre la base SQLite
 - Se identificaron los diez buques con mayor cantidad de infracciones
